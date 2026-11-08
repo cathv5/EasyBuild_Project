@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EasyBuild — собери комп, а не гроб</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="container nav">
+    <a href="#" class="logo">
+      <span class="logo-mark">⚡</span>
+      Easy<span>Build</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">О нас</a>
+      <a href="#configurator">Подбор комплектующих</a>
+      <a href="#builds">Готовые сборки</a>
+      <a href="#discounts">Скидки</a>
+      <a href="#chat">Чат поддержки</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню">☰</button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-badge">🔧 Сборка ПК под ключ · Гарантия совместимости</div>
+      <h1>EasyBuild — <span class="grad">собери комп,<br>а не гроб</span></h1>
+      <p class="lead">Подберём комплектующие, которые точно совместимы друг с другом. Без переплат, без ошибок и без головной боли — от геймеров до родителей школьников.</p>
+      <div class="hero-actions">
+        <a href="#configurator" class="btn btn-primary">Подобрать комплектующие →</a>
+        <a href="#builds" class="btn btn-ghost">Смотреть готовые сборки</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="num">12 000+</div><div class="lbl">довольных клиентов</div></div>
+        <div><div class="num">99.8%</div><div class="lbl">совместимость сборок</div></div>
+        <div><div class="num">24/7</div><div class="lbl">поддержка</div></div>
+      </div>
+    </div>
+    <div class="pc-visual">
+      <div class="pc-case">
+        <div class="pc-fan"></div>
+        <div class="pc-bar"></div>
+        <div class="pc-bar small"></div>
+      </div>
+      <div class="float-tag t1">✓ Совместимость проверена</div>
+      <div class="float-tag t2">💰 Экономия до 25%</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head">
+      <h2>История <span class="grad">EasyBuild</span></h2>
+      <p>От сборки ПК для друзей на б/у комплектующих — до сервиса, которому доверяют тысячи пользователей.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-story">
+        <p>Всё началось в <strong>2018 году</strong> с гаража и нескольких б/у комплектующих. Мы собирали компьютеры для друзей, которые хотели играть, учиться или работать, но боялись ошибиться с совместимостью.</p>
+        <p>С каждым заказом мы оттачивали подход: <strong>проверяли каждую пару компонентов</strong>, объясняли, за что платить, а где можно сэкономить. Сарафанное радио сделало своё дело — заказы пошли от незнакомых людей.</p>
+        <p>Сегодня <strong>EasyBuild</strong> — это команда инженеров и консультантов, которая помогает подобрать идеальный ПК под любые задачи: от киберспорта до ML-разработки.</p>
+        <a href="#configurator" class="btn btn-ghost" style="margin-top:8px">Начать подбор →</a>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-year">2018</div>
+          <div><h4>Первые сборки</h4><p>Собрали 15 ПК для друзей на б/у комплектующих.</p></div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2020</div>
+          <div><h4>Свой сервис</h4><p>Запустили онлайн-консультации и проверку совместимости.</p></div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2022</div>
+          <div><h4>10 000 клиентов</h4><p>Открыли собственный склад и расширили команду инженеров.</p></div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2024</div>
+          <div><h4>EasyBuild сегодня</h4><p>Готовые сборки под гейминг, дизайн, ML и инженерию.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONFIGURATOR ===== -->
+<section class="section" id="configurator">
+  <div class="container">
+    <div class="section-head">
+      <h2>Подбор <span class="grad">комплектующих</span></h2>
+      <p>Выберите компоненты — мы автоматически проверим совместимость и покажем итоговую стоимость.</p>
+    </div>
+    <div class="config-wrap">
+      <div class="config-grid">
+        <div class="field"><label>Процессор (CPU)</label><select><option>AMD Ryzen 5 7600 — 12 000 ₽</option></select></div>
+        <div class="field"><label>Материнская плата</label><select><option>MSI B650 Gaming — 9 000 ₽</option></select></div>
+        <div class="field"><label>Видеокарта (GPU)</label><select><option>NVIDIA RTX 4060 — 25 000 ₽</option></select></div>
+        <div class="field"><label>Оперативная память (RAM)</label><select><option>16 ГБ DDR5 6000 — 6 000 ₽</option></select></div>
+        <div class="field"><label>Накопитель (SSD)</label><select><option>1 ТБ NVMe Gen4 — 5 000 ₽</option></select></div>
+        <div class="field"><label>Блок питания (PSU)</label><select><option>650W Bronze — 6 000 ₽</option></select></div>
+      </div>
+      <div class="config-footer">
+        <div class="config-total">Итоговая стоимость:<strong>57 000 ₽</strong></div>
+        <button class="btn btn-primary">Проверить совместимость</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BUILDS (С картинками) ===== -->
+<section class="section" id="builds">
+  <div class="container">
+    <div class="section-head">
+      <h2>Готовые <span class="grad">сборки</span></h2>
+      <p>Проверенные конфигурации под любые задачи — от киберспорта до инженерных расчётов.</p>
+    </div>
+    
+    <div class="builds-grid">
+      <!-- Карточка 1: Видеокарта -->
+      <article class="build-card">
+        <img src="images/img1.jpg" alt="Видеокарта GeForce RTX">
+        <h3>Starter Gaming</h3>
+        <div class="purpose">Гейминг · 1080p</div>
+        <p style="font-size: 13px; color: var(--muted); margin-bottom: 15px;">Видеокарта NVIDIA RTX 4060 в комплекте</p>
+        <div class="build-price"><span class="p">65 000 ₽</span></div>
+        <button class="btn btn-ghost">Заказать сборку</button>
+      </article>
+      
+      <!-- Карточка 2: Процессор -->
+      <article class="build-card">
+        <img src="images/img2.jpg" alt="Процессор AMD Ryzen">
+        <h3>Pro Gaming</h3>
+        <div class="purpose">Гейминг · 1440p</div>
+        <p style="font-size: 13px; color: var(--muted); margin-bottom: 15px;">Мощный процессор AMD Ryzen 5 5600</p>
+        <div class="build-price"><span class="p">120 000 ₽</span></div>
+        <button class="btn btn-ghost">Заказать сборку</button>
+      </article>
+      
+      <!-- Карточка 3: Корпус -->
+      <article class="build-card">
+        <img src="images/img3.jpg" alt="Корпус ПК">
+        <h3>Designer Pro</h3>
+        <div class="purpose">Дизайн · 3D · Видео</div>
+        <p style="font-size: 13px; color: var(--muted); margin-bottom: 15px;">Стильный белый корпус с подсветкой</p>
+        <div class="build-price"><span class="p">145 000 ₽</span></div>
+        <button class="btn btn-ghost">Заказать сборку</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DISCOUNTS ===== -->
+<section class="section" id="discounts">
+  <div class="container">
+    <div class="discount-banner">
+      <span class="tag">🎉 Специальное предложение</span>
+      <h2>Скидка <span style="color:#9fd0ff">10%</span> на первый заказ</h2>
+      <p>При первом обращении в сервис EasyBuild мы дарим скидку 10% на сборку и консультацию инженера. Просто упомяните промокод <strong>EASYSTART</strong> при оформлении.</p>
+      <a href="#configurator" class="btn">Получить скидку</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CHAT ===== -->
+<section class="section" id="chat">
+  <div class="container">
+    <div class="section-head">
+      <h2>Чат <span class="grad">поддержки</span></h2>
+      <p>Задайте любой вопрос о сборке, совместимости или сервисе — ответим за пару минут.</p>
+    </div>
+    <div class="chat-layout">
+      <div class="chat-info"><h3>Всегда на связи</h3><p>Наши инженеры помогут разобраться в комплектующих.</p></div>
+      <div class="chat-window">
+        <div class="chat-head"><div class="avatar">🤖</div><div><div class="name">EasyBuild Support</div></div></div>
+        <div class="chat-body"><div class="msg bot">Привет! 👋 Я помощник EasyBuild. Задайте вопрос.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-bottom">
+      <span>© 2024 EasyBuild. Все права защищены.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
